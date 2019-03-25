@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Chat-box </title>
+        <link rel="stylesheet" type="text/css" href="style_.css">
+    </head>
+    <body>
+
+    <div class="chatbox">
+
+        <div class="chatlogs">
+
+
+
+            <div class="chat friend">
+                <div class="user-photo"><img src="avatar2.png"></div>
+                <p class="chat-message"> What's up, Brother..!?</p>
+            </div>
+            <div class="chat self">
+                <div class="user-photo"><img src="avatar1.png"></div>
+                <p class="chat-message"> What's up,....</p>
+        </div>
+
+        <div class="chat friend">
+                <div class="user-photo"><img src="avatar2.png"></div>
+                <p class="chat-message"> What's up, Brother..!?</p>
+            </div>
+            <div class="chat self">
+                <div class="user-photo"><img src="avatar1.png"></div>
+                <p class="chat-message"> What's up,....</p>
+        </div>
+
+        <div class="chat friend">
+                <div class="user-photo"><img src="avatar2.png"></div>
+                <p class="chat-message"> What's up, Brother..!?</p>
+            </div>
+            <div class="chat self">
+                <div class="user-photo"><img src="avatar1.png"></div>
+                <p class="chat-message"> What's up,....</p>
+        </div>
+        <div class="chat friend">
+                <div class="user-photo"><img src="avatar2.png"></div>
+                <p class="chat-message"> What's up, Brother..!?</p>
+            </div>
+            <div class="chat self">
+                <div class="user-photo"><img src="avatar1.png"></div>
+                <p class="chat-message"> What's up,....</p>
+        </div>
+        <div class="chat friend">
+                <div class="user-photo"><img src="avatar2.png"></div>
+                <p class="chat-message"> What's up, Brother..!?</p>
+            </div>
+            <div class="chat self">
+                <div class="user-photo"><img src="avatar1.png"></div>
+                <p class="chat-message"> What's up,....</p>
+        </div>
+        <div class="chat friend">
+                <div class="user-photo"><img src="avatar2.png"></div>
+                <p class="chat-message"> What's up, Brother..!?</p>
+            </div>
+            <div class="chat self">
+                <div class="user-photo"><img src="avatar1.png"></div>
+                <p class="chat-message"> What's up,....</p>
+        </div>
+
+        
+    </div>
+
+<div class="chat-form">
+     <textarea></textarea>
+         <button>Send</button>
+</div>
+
+</div>
+    </body>
+</html>
