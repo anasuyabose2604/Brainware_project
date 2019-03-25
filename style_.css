@@ -1,0 +1,147 @@
+{
+    margin:  0;
+    padding: 0;
+    font-family: tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #000;
+}
+
+.chatbox
+{
+width: 500px;
+min-width: 390px;
+height: 600px;
+background:#fff;
+padding: 25px;
+margin:20px auto;
+box-shadow: 0 3px #ccc;
+}
+
+.chatlogs
+{
+    padding: 10px;
+    width: 100%;
+    height: 450px;
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+}
+
+.chatlogs::-webkit-scrollbar
+{
+    width: 10px;
+
+}
+
+.chatlogs::-webkit-scrollbar-thumb
+{
+    border-radius: 5px;
+    background: rgba(0,0,0,.1);
+}
+
+.chat
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.chat .user-photo
+{
+    width: 60px;;
+    height: 60px;
+    background:  #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.chat .user-photo img
+{
+    width: 100%;
+}
+
+.chat .chat-message
+{
+    width: 70%;
+    padding: 15px;
+    margin: 5px 10px 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-family: tahoma, sans-serif
+}
+
+.friend .chat-message
+{
+    background: #000;
+}
+
+.self .chat-message
+{
+    background:#ff0052;
+    order: -1;
+}
+
+.chat-form
+{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.chat-form textarea
+{
+    background: #fbfbfb;
+    width:75%;
+    height: 50px;
+    border: 2px solid #eee;
+    border-radius: 3px;
+    resize: none;
+    padding: 10px;
+    font-size: 15px;
+    color: #333;
+}
+
+.chat-form textarea:focus
+{
+    background: #fff;
+}
+
+.chat-form textarea::-webkit-scrollbar
+{
+    width: 10px;
+
+}
+
+.chat-form textarea::-webkit-scrollbar-thumb
+{
+    border-radius: 5px;
+    background: rgba(0,0,0,.1);
+}
+
+.chat-form button
+{
+    background: blue;
+    padding: 5px 15px;
+    color: #ccc;
+    font-size: 15px;
+    border: none;
+    margin-top: 23px;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow: 0 3px 0 cyan;
+    cursor: pointer;
+
+    -webkit-transition: background .2ease;
+    -moz-transition: background .2ease;
+    -o-transition: background .2ease;
+}
+
+.chat-form button:hover
+{
+    background: #13c8d9
+}
